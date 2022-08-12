@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  /* background-color: black;
+  color: white; */
+}
+
+#Navagation > ul{
+  display: inline;
 }
 
 .App-logo {
