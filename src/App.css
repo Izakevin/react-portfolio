@@ -1,11 +1,49 @@
-.App {
+/*Header starts here*/
+header{
+  background-color: white;      /*Changes the background-color of the header*/
+}
+
+/*hr-top includes the logo and the Navagation bar*/
+#hr-top{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+#Navagation{
   text-align: center;
-  /* background-color: black;
-  color: white; */
+  left: 50%;          /*pushes the nav to the right*/
+  position: absolute; 
 }
 
 #Navagation > ul{
-  display: inline;
+  display: inline-block;
+}
+
+/*hr-info includes the welcome message, current status, and buttons*/
+#hr-info{
+  background-color: white;
+  text-align: center;
+}
+
+#hr-info > h1{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#hr-info > p{
+  padding-bottom: 40px;
+}
+
+#hr-buttons{
+  width: 20%;
+  margin: auto;
+  display: flex;
+}
+
+#hr-buttons > button{
+  margin: auto;
 }
 
 .App-logo {
