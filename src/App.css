@@ -1,6 +1,7 @@
 /*Header starts here*/
 header{
   background-color: white;      /*Changes the background-color of the header*/
+  padding-bottom: 60px;
 }
 
 /*hr-top includes the logo and the Navagation bar*/
@@ -44,6 +45,29 @@ header{
 
 #hr-buttons > button{
   margin: auto;
+}
+
+body{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+#about_me{
+  padding-bottom: 40px;
+}
+
+#about_me > p{
+  width: 60%;
+  margin: auto;
+}
+
+#education{
+  padding-bottom: 40px;
+}
+
+#education > p{
+  width: 65%;
 }
 
 .App-logo {
