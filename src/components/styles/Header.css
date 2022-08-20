@@ -1,0 +1,29 @@
+/*Header starts here*/
+header{
+    padding-bottom: 60px;
+    background-color: darkgray;
+}
+
+/*hr-info includes the welcome message, current status, and buttons*/
+#hr-info{
+    text-align: center;
+}
+
+#hr-info > h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#hr-info > p{
+    padding-bottom: 40px;
+}
+
+#hr-buttons{
+    width: 20%;
+    margin: auto;
+    display: flex;
+}
+
+#hr-buttons > button{
+    margin: auto;
+}
