@@ -33,6 +33,7 @@ header{
     display: flex;
 }
 
-#hr-buttons > button{
+#hr-buttons > Btn2{
     margin: auto;
+    height: 50%;;
 }

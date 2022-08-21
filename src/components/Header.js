@@ -1,5 +1,6 @@
 import './styles/Header.css';
 import Navigation from './Navigation';
+import GithubNt from './Logos/GithubNt';
 
 function Header(Props){
     return (
@@ -13,8 +14,9 @@ function Header(Props){
           <p>I am a software developer searching for a new spawn point and grinding levels to upgrade my skill tree</p>
 
           <div id="hr-buttons">
-            <button onClick={""}>Projects</button>
-            <button onClick={()=> window.open("https://github.com/Izakevin","_blank")}>Github</button>
+            <button onClick={()=> window.open("https://github.com/Izakevin","_blank")}> <GithubNt/> Github
+            
+            </button>
           </div>
         </div>
 

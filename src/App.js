@@ -1,10 +1,11 @@
 import './App.css';
 import Header from './components/Header.js';
+import Skills from './components/Skills.js'
 
 function App() {
   return (
     <div>
-      {/* <Header test = "u ready"/>      how props works*/}   
+
       <Header/>
       <body>
         <div id="about_me">
@@ -25,9 +26,7 @@ function App() {
           <h2>My Projects</h2>
         </div>
 
-        <div id="skills">
-          <h2>Skills</h2>
-        </div>
+        <Skills/>
 
         <div id ="contact_me">
           <h2>Contact Me</h2>
