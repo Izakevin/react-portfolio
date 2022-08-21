@@ -1,7 +1,8 @@
 /*Header starts here*/
 header{
     padding-bottom: 60px;
-    background-color: darkgray;
+    background-color: #0F3D3E;
+    color: white;
 }
 
 /*hr-info includes the welcome message, current status, and buttons*/
@@ -12,9 +13,17 @@ header{
 #hr-info > h1{
     text-align: center;
     padding-bottom: 20px;
+    font-size: 2.5em;
+}
+
+#hr-info > h1 > #HW {
+    color: #39ff14;
 }
 
 #hr-info > p{
+    font-size: 1.5em;
+    width: 60%;
+    margin:auto;
     padding-bottom: 40px;
 }
 

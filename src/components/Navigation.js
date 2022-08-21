@@ -1,4 +1,5 @@
 import './styles/Navigation.css';
+import Btn1 from './Btn1.js';
 
 function Navigation(){
     return(
@@ -6,11 +7,11 @@ function Navigation(){
         <p>Kevin Iza Software Developer</p>
 
         <nav id='Navagation'>
-            <ul><button>About Me</button></ul>
-            <ul><button>Education</button></ul>
-            <ul><button>Projects</button></ul>
-            <ul><button>Skills</button></ul>
-            <ul><button>Contact</button></ul>
+            <ul><Btn1 name= "About Me"/></ul>
+            <ul><Btn1 name= "Education"/></ul>
+            <ul><Btn1 name= "Projects"/></ul>
+            <ul><Btn1 name= "Skills"/></ul>
+            <ul><Btn1 name= "Contact"/></ul>
         </nav>
     </div>
     )

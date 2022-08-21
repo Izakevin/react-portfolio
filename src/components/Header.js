@@ -9,7 +9,7 @@ function Header(Props){
         <Navigation/>
 
         <div id="hr-info">
-          <h1>Hello, World! Im Kevin</h1>
+          <h1><span id ="HW">Hello, World!_ </span> Im Kevin</h1>
           <p>I am a software developer searching for a new spawn point and grinding levels to upgrade my skill tree</p>
 
           <div id="hr-buttons">

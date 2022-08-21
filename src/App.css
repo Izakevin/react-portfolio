@@ -2,6 +2,8 @@
 body{
   margin: auto;
   text-align: center;
+  background-color: #100F0F;
+  color: white;
 }
 
 #about_me{
