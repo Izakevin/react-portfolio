@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header.js';
-import Skills from './components/Skills.js'
+import Skills from './components/Skills.js';
+import Education from './components/Education.js';
 
 function App() {
   return (
@@ -14,13 +15,7 @@ function App() {
           </p>
         </div>
 
-        <div id="education">
-          <h2>Education</h2>
-          <p>A bachelor's degree of science from New York University Tandon School of Engineering
-            Minor in Studies of Technology, Science, and Society
-          </p>
-
-        </div>
+        <Education/>
 
         <div id="projects">
           <h2>My Projects</h2>

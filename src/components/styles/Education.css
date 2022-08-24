@@ -1,0 +1,7 @@
+#Edu_layout{
+    margin: auto;
+}
+
+#Edu_layout > p{
+    width: 50%;
+}

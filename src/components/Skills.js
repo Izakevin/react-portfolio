@@ -4,6 +4,13 @@ import Cpp from './Logos/C++.js'
 import Java from './Logos/Java.js'
 import JavaScript from './Logos/JavaScript.js'
 import Python from './Logos/Python.js'
+import Html from './Logos/Html.js'
+import Css from './Logos/Css.js'
+import Csharp from './Logos/Csharp.js'
+import UnrealEngine from './Logos/UnrealEngine.js'
+import Docker from './Logos/Docker.js'
+import MySQL from './Logos/MySQL.js'
+import MondoDB from './Logos/MongoDB.js'
 
 function Skills(){
     return(
@@ -15,13 +22,13 @@ function Skills(){
             <li><Java/></li>
             <li><JavaScript/></li>
             <li><Python/></li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>C#</li>
-            <li>Unreal Engine</li>
-            <li>Docker</li>
-            <li>MySQL</li>
-            <li>MongoDB</li>
+            <li><Html/></li>
+            <li><Css/></li>
+            <li><Csharp/></li>
+            <li><UnrealEngine/></li>
+            <li><Docker/></li>
+            <li><MySQL/></li>
+            <li><MondoDB/></li>
         </ul>
         
     </div>
