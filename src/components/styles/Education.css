@@ -1,7 +1,21 @@
+#education > h2{
+    margin-bottom: 60px;
+}
+
 #Edu_layout{
+    display: flex;
+    width: 60%;
     margin: auto;
+    padding-bottom: 60px;
 }
 
 #Edu_layout > p{
     width: 50%;
+    margin: auto;
+}
+
+#Edu_layout > img{
+    width: 23%;
+    margin: auto;
+    background-color: violet;
 }
