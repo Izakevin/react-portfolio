@@ -1,9 +1,9 @@
 import './App.css';
-// import {useRef} from 'react';
 
 import Header from './components/Header.js';
-import Skills from './components/Skills.js';
 import Education from './components/Education.js';
+import Skills from './components/Skills.js';
+import Contact from './components/Contact';
 
 function App() {
 
@@ -28,9 +28,7 @@ function App() {
 
         <Skills/>
 
-        <div id ="contact_me">
-          <h2 className='section'>Contact Me</h2>
-        </div>
+        <Contact/>
         
       </body>
 
