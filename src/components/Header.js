@@ -14,9 +14,16 @@ function Header(Props){
           <p>I am a software developer searching for a new spawn point and grinding levels to upgrade my skill tree</p>
 
           <div id="hr-buttons">
-            <button onClick={()=> window.open("https://github.com/Izakevin","_blank")}> <GithubNt/> Github
-            
+
+            <button id="project" class="glow-on-hover"> 
+              Projects
             </button>
+            <button class="glow-on-hover" onClick={()=> window.open("https://github.com/Izakevin","_blank")}> 
+            <GithubNt/> Github
+        
+            </button>
+
+
           </div>
         </div>
 

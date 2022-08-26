@@ -15,7 +15,7 @@ import MondoDB from './Logos/MongoDB.js'
 function Skills(){
     return(
     <div id="skills">
-        <h2>Skills</h2>
+        <h2 className='section'>Skills</h2>
 
         <ul>
             <li><Cpp/></li>

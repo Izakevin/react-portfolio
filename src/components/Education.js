@@ -3,7 +3,7 @@ import './styles/Education.css'
 function Education(){
     return(
         <div id="education">
-            <h2>Education</h2>
+            <h2 className='section'>Education</h2>
 
             <div id = "Edu_layout">
                 <img src={require('./Logos/tandon_seal.webp')} alt="New York University Tandon School Seal"/>
