@@ -1,6 +1,5 @@
 import './styles/Header.css';
 
-import {useRef} from 'react';
 import Navigation from './Navigation';
 import GithubNt from './Logos/GithubNt';
 
@@ -9,7 +8,7 @@ function Header(Props){
     <header>
         {/* <p>{Props.test}</p>      how to use props*/}
         {/* <p>{Props.item}</p> */}
-        <Navigation item = {Props.item}/>
+        <Navigation/>
 
         <div id="hr-info">
           <h1><span id ="HW">Hello, World!_ </span> Im Kevin</h1>
