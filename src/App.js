@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 import AboutMe from './components/About_Me';
 
 function App() {
-
+  
   return (
     <div>
 
