@@ -19,7 +19,7 @@ function Header(Props){
             <button id="project" class="glow-on-hover"> 
               Projects
             </button>
-            <button class="glow-on-hover" onClick={()=> window.open("https://github.com/Izakevin","_blank")}> 
+            <button id="github"class="glow-on-hover" onClick={()=> window.open("https://github.com/Izakevin","_blank")}> 
             <GithubNt/> Github
         
             </button>
