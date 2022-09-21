@@ -16,6 +16,8 @@
 
 #Edu_layout > img{
     width: 23%;
+    padding: .75%;
     margin: auto;
     background-color: violet;
+    border-radius: 10%;
 }
