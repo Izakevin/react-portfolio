@@ -24,7 +24,7 @@ header{
     font-size: 1.5em;
     width: 60%;
     margin:auto;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 #hr-buttons{
@@ -34,6 +34,14 @@ header{
     justify-content: space-around;
 }
 
+/* Styles the buttons */
+#hr-buttons > button{
+    width: 40%;
+    padding: 3%;
+    font-size: 1.3em;
+}
+
+/* Style Github button */
 #button_content{
     width: 100%;
     display: inline-flex;
@@ -47,10 +55,7 @@ header{
 
 /* Deals with the Rainbow Glow Effect around buttons */
 
-.glow-on-hover {     
-    /* width controls the button width*/
-    width: 40%;
-
+.glow-on-hover {
     border: none;
     outline: none;
     color: #fff;

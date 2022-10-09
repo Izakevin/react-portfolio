@@ -20,6 +20,8 @@ function App() {
 
         <div id="projects">
           <h2 className='section'>My Projects</h2>
+
+          <h3>Coming Soon ...</h3>
         </div>
 
         <Skills/>
