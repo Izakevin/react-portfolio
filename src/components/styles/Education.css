@@ -2,19 +2,24 @@
     margin-bottom: 60px;
 }
 
-#Edu_layout{
+#edu_layout{
     display: flex;
     width: 60%;
     margin: auto;
     padding-bottom: 60px;
 }
 
-#Edu_layout > p{
-    width: 50%;
-    margin: auto;
+#edu_txt_layout > h3{
+    font-size: 1.5em;
 }
 
-#Edu_layout > img{
+#edu_txt_layout > p{
+    width: 85%;
+    margin: auto;
+    font-size: 1.25em;
+}
+
+#edu_layout > img{
     width: 23%;
     padding: .75%;
     margin: auto;
