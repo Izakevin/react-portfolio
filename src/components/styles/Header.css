@@ -36,7 +36,9 @@ header{
 
 #button_content{
     width: 100%;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 #button_content > svg{
