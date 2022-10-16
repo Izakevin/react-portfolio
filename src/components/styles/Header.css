@@ -1,19 +1,22 @@
 /*Header starts here*/
 header{
-    padding-bottom: 60px;
     background-color: #0F3D3E;
     color: white;
+    height: 700px;
 }
 
 /*hr-info includes the welcome message, current status, and buttons*/
 #hr-info{
+    height: 80%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 #hr-info > h1{
     text-align: center;
-    padding-bottom: 20px;
-    font-size: 2.5em;
+    font-size: 4em;
 }
 
 #hr-info > h1 > #HW {
@@ -21,10 +24,9 @@ header{
 }
 
 #hr-info > p{
-    font-size: 1.5em;
+    font-size: 2em;
     width: 60%;
     margin:auto;
-    padding-bottom: 60px;
 }
 
 #hr-buttons{
@@ -50,7 +52,7 @@ header{
 }
 
 #button_content > svg{
-    width: 30%;
+    width: 40%;
 }
 
 /* Deals with the Rainbow Glow Effect around buttons */
